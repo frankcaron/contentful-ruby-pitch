@@ -21,6 +21,10 @@ This readme assumes that you have a basic understating of Ruby development and a
 
 		ruby web.rb
 
+### Demo
+
+Alternatively, if you're lazy... [https://desolate-hollows-76125.herokuapp.com/](https://desolate-hollows-76125.herokuapp.com/).
+
 ### Dependencies
 
 This impl relies on the following, which can all be installed from Rubygems.org using `gem install` individually or by via `bundle`. 
