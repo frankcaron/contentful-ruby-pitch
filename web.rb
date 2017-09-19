@@ -5,7 +5,7 @@
 ## This is a simple sample app put up to test out
 ## the API as fodder for a Medium post about 
 ## how great developer experience enables 
-## evangelism beyond traditional egneineers.
+## evangelism beyond traditional engineers.
 
 require 'sinatra'
 require 'contentful'
