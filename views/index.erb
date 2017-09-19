@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Contentful: A Developer Experience Conversation</title>
+    <link rel="stylesheet" type="text/css" href="/one-page-wonder.css">
+  </head>
+  <body>
+    <div>
+      <h1>Oh, hi.</h1>
+      <p>
+        So what makes Contentful such a great example of how an outstanding developer experience can help the company reach a broader audience?
+      </p>
+      <p>
+      	Easy. Here's the top five reasons, as pulled from my account via the Contentful API:
+      </p>
+      <p>
+        <ol>
+          <% @reasons.each do |reason| %>
+            <li><<%=reason.htmltag%>><%=reason.value%></<%=reason.htmltag%>></li>
+          <% end %>
+        </ol>
+      </p>
+      <p>
+        By pulling from the <a href="http://www.rubydoc.info/gems/contentful/">straight-forward API documentation</a> and following the prompts in the <a href="https://app.contentful.com"> editor and developer portal</a>, I was able to create content and build a simple Sinatra app with Contentful integrated in all of 10 minutes. Hell, I spent longer putting it up on Heroku than building the integration to a CMS! That's developer experience.
+      <p>
+        Pretty sweet, huh? I thought so, too. Need more info? Check out <a href="http://frankcaron.com">my personal site</a>.
+      </p>
+    </div>
+  </body>
+</html>
